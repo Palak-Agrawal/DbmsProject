@@ -10,7 +10,7 @@
 namespace WebApplication3 {
     
     
-    public partial class showBroker {
+    public partial class Broker_history {
         
         /// <summary>
         /// form1 control.
@@ -22,12 +22,21 @@ namespace WebApplication3 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// grdShowBroker control.
+        /// grdBrokerHistory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdShowBroker;
+        protected global::System.Web.UI.WebControls.GridView grdBrokerHistory;
+        
+        /// <summary>
+        /// lbl_no_result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_no_result;
     }
 }

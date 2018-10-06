@@ -10,7 +10,7 @@
 namespace WebApplication3 {
     
     
-    public partial class login {
+    public partial class login_as_client {
         
         /// <summary>
         /// form1 control.
@@ -22,57 +22,57 @@ namespace WebApplication3 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lbl_id control.
+        /// lblEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_id;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
-        /// txt_id control.
+        /// txtCrEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_id;
+        protected global::System.Web.UI.WebControls.TextBox txtCrEmail;
         
         /// <summary>
-        /// lbl_pwd control.
+        /// lblpsw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_pwd;
+        protected global::System.Web.UI.WebControls.Label lblpsw;
         
         /// <summary>
-        /// txt_pwd control.
+        /// txtCrPsw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_pwd;
+        protected global::System.Web.UI.WebControls.TextBox txtCrPsw;
         
         /// <summary>
-        /// btn_login control.
+        /// btnCrSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_login;
+        protected global::System.Web.UI.WebControls.Button btnCrSubmit;
         
         /// <summary>
-        /// lbl_access control.
+        /// lblAccess control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_access;
+        protected global::System.Web.UI.WebControls.Label lblAccess;
     }
 }

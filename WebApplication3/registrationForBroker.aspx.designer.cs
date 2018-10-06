@@ -10,7 +10,7 @@
 namespace WebApplication3 {
     
     
-    public partial class registrationForBroker {
+    public partial class registrationForBroker1 {
         
         /// <summary>
         /// form1 control.
@@ -40,6 +40,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_name;
         
         /// <summary>
+        /// valid_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_name;
+        
+        /// <summary>
         /// Lbl_add control.
         /// </summary>
         /// <remarks>
@@ -56,6 +65,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_add;
+        
+        /// <summary>
+        /// valid_address control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_address;
         
         /// <summary>
         /// lbl_mob control.
@@ -76,6 +94,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_mob1;
         
         /// <summary>
+        /// valid_mobile1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_mobile1;
+        
+        /// <summary>
         /// lbl_mob2 control.
         /// </summary>
         /// <remarks>
@@ -92,6 +119,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_mob2;
+        
+        /// <summary>
+        /// valid_mobile2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_mobile2;
         
         /// <summary>
         /// lbl_web control.
@@ -130,6 +166,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_email;
         
         /// <summary>
+        /// valid_email control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_email;
+        
+        /// <summary>
         /// lbl_brokerPer control.
         /// </summary>
         /// <remarks>
@@ -146,6 +191,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_broker_per;
+        
+        /// <summary>
+        /// valid_br_pr control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_br_pr;
         
         /// <summary>
         /// lbl_area_deal control.
@@ -166,6 +220,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_area_deal;
         
         /// <summary>
+        /// valid_area_deal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_area_deal;
+        
+        /// <summary>
         /// lbl_pwd control.
         /// </summary>
         /// <remarks>
@@ -182,6 +245,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_pwd;
+        
+        /// <summary>
+        /// valid_pwd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_pwd;
         
         /// <summary>
         /// lbl_repwd control.
@@ -202,6 +274,60 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_repwd;
         
         /// <summary>
+        /// valid_re_pwd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_re_pwd;
+        
+        /// <summary>
+        /// lbl_reg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_reg;
+        
+        /// <summary>
+        /// lbl_br_pr control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_br_pr;
+        
+        /// <summary>
+        /// lbl_deal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_deal;
+        
+        /// <summary>
+        /// lbl_deal_date control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_deal_date;
+        
+        /// <summary>
+        /// lbl_deal_type control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_deal_type;
+        
+        /// <summary>
         /// lbl_exp control.
         /// </summary>
         /// <remarks>
@@ -220,6 +346,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp1_reg;
         
         /// <summary>
+        /// valid_reg1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valid_reg1;
+        
+        /// <summary>
         /// txt_exp1_broPer control.
         /// </summary>
         /// <remarks>
@@ -227,6 +362,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp1_broPer;
+        
+        /// <summary>
+        /// vaild_br_pr1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_br_pr1;
         
         /// <summary>
         /// txt_exp1_detail control.
@@ -238,6 +382,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp1_detail;
         
         /// <summary>
+        /// vaild_details1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_details1;
+        
+        /// <summary>
         /// txt_exp1_dealDate control.
         /// </summary>
         /// <remarks>
@@ -245,6 +398,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp1_dealDate;
+        
+        /// <summary>
+        /// vaild_date1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_date1;
         
         /// <summary>
         /// txt_exp1_dealType control.
@@ -256,6 +418,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp1_dealType;
         
         /// <summary>
+        /// vaild_type1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_type1;
+        
+        /// <summary>
         /// txt_exp2_reg control.
         /// </summary>
         /// <remarks>
@@ -263,6 +434,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp2_reg;
+        
+        /// <summary>
+        /// vaild_reg2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_reg2;
         
         /// <summary>
         /// txt_exp2_broPer control.
@@ -274,6 +454,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp2_broPer;
         
         /// <summary>
+        /// vaild_br_pr2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_br_pr2;
+        
+        /// <summary>
         /// txt_exp2_detail control.
         /// </summary>
         /// <remarks>
@@ -281,6 +470,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp2_detail;
+        
+        /// <summary>
+        /// vaild_details2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_details2;
         
         /// <summary>
         /// txt_exp2_dealdate control.
@@ -292,6 +490,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp2_dealdate;
         
         /// <summary>
+        /// vaild_date7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_date7;
+        
+        /// <summary>
         /// txt_exp2_dealType control.
         /// </summary>
         /// <remarks>
@@ -299,6 +506,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp2_dealType;
+        
+        /// <summary>
+        /// vaild_type2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_type2;
         
         /// <summary>
         /// txt_exp3_reg control.
@@ -310,6 +526,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp3_reg;
         
         /// <summary>
+        /// vaild_reg3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_reg3;
+        
+        /// <summary>
         /// txt_exp3_broPer control.
         /// </summary>
         /// <remarks>
@@ -317,6 +542,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp3_broPer;
+        
+        /// <summary>
+        /// vaild_br_pr3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_br_pr3;
         
         /// <summary>
         /// txt_exp3_detail control.
@@ -328,6 +562,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp3_detail;
         
         /// <summary>
+        /// vaild_details3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_details3;
+        
+        /// <summary>
         /// txt_exp3_dealdate control.
         /// </summary>
         /// <remarks>
@@ -335,6 +578,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp3_dealdate;
+        
+        /// <summary>
+        /// vaild_date3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_date3;
         
         /// <summary>
         /// txt_exp3_dealType control.
@@ -346,6 +598,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp3_dealType;
         
         /// <summary>
+        /// vaild_type3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_type3;
+        
+        /// <summary>
         /// txt_exp4_reg control.
         /// </summary>
         /// <remarks>
@@ -353,6 +614,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp4_reg;
+        
+        /// <summary>
+        /// vaild_reg4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_reg4;
         
         /// <summary>
         /// txt_exp4_broPer control.
@@ -364,6 +634,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp4_broPer;
         
         /// <summary>
+        /// vaild_br_pr4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_br_pr4;
+        
+        /// <summary>
         /// txt_exp4_detail control.
         /// </summary>
         /// <remarks>
@@ -371,6 +650,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp4_detail;
+        
+        /// <summary>
+        /// vaild_details4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_details4;
         
         /// <summary>
         /// txt_exp4_dealdate control.
@@ -382,6 +670,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp4_dealdate;
         
         /// <summary>
+        /// vaild_date4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_date4;
+        
+        /// <summary>
         /// txt_exp4_dealType control.
         /// </summary>
         /// <remarks>
@@ -389,6 +686,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp4_dealType;
+        
+        /// <summary>
+        /// vaild_type4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_type4;
         
         /// <summary>
         /// txt_exp5_reg control.
@@ -400,6 +706,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp5_reg;
         
         /// <summary>
+        /// vaild_reg5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_reg5;
+        
+        /// <summary>
         /// txt_exp5_broPer control.
         /// </summary>
         /// <remarks>
@@ -407,6 +722,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp5_broPer;
+        
+        /// <summary>
+        /// vaild_br_pr5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_br_pr5;
         
         /// <summary>
         /// txt_exp5_detail control.
@@ -418,6 +742,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp5_detail;
         
         /// <summary>
+        /// vaild_details5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_details5;
+        
+        /// <summary>
         /// txt_exp5_dealdate control.
         /// </summary>
         /// <remarks>
@@ -425,6 +758,15 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_exp5_dealdate;
+        
+        /// <summary>
+        /// vaild_date5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_date5;
         
         /// <summary>
         /// txt_exp5_dealType control.
@@ -436,6 +778,15 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.TextBox txt_exp5_dealType;
         
         /// <summary>
+        /// vaild_type5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vaild_type5;
+        
+        /// <summary>
         /// btn_sub control.
         /// </summary>
         /// <remarks>
@@ -443,5 +794,23 @@ namespace WebApplication3 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_sub;
+        
+        /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+        
+        /// <summary>
+        /// lblCheck control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCheck;
     }
 }

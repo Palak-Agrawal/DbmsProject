@@ -9,13 +9,18 @@ using MySql.Data.MySqlClient;
 
 namespace WebApplication3
 {
-    public partial class ShowProperty : System.Web.UI.Page
+    public partial class Broker_history : System.Web.UI.Page
     {
+      
         protected void Page_Load(object sender, EventArgs e)
         {
-            fillgrdProperty();
+            lbl_no_result.Text =  Request.QueryString["BrokerId"];
+            String brokerId = lbl_no_result.Text;
+            fillBrokerHistory(brokerId);
         }
-        private void fillgrdProperty()
+
+
+        private void fillBrokerHistory(String brokerId)
         {
             MySqlConnection objcon = new MySqlConnection();
             objcon.ConnectionString = "server = localhost; user id = root; database = databasetest; persistsecurityinfo = True;SslMode=none";
@@ -30,7 +35,7 @@ namespace WebApplication3
             //string search = ddl_search.Text;
             string sql = "";
 
-            sql = "SELECT  property_id, worth, area  FROM property";
+            sql = "SELECT  registration_no, broker_per, other_details,date_of_deal  FROM broker_history where broker_id ='" + brokerId+"'";
 
 
             objcmd.CommandText = sql;
@@ -38,17 +43,20 @@ namespace WebApplication3
             if (reader != null && reader.HasRows)
             {
                 lbl_no_result.Visible = false;
-                grdShowProperty.Visible = true;
-                grdShowProperty.DataSource = reader;
-                grdShowProperty.DataBind();
+                grdBrokerHistory.Visible = true;
+                grdBrokerHistory.DataSource = reader;
+                grdBrokerHistory.DataBind();
 
             }
             else
             {
                 lbl_no_result.Visible = true;
-                grdShowProperty.Visible = false;
+                grdBrokerHistory.Visible = false;
             }
 
         }
+
+
+
     }
 }

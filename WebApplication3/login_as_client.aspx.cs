@@ -4,49 +4,52 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace WebApplication3
 {
-    public partial class ShowProperty : System.Web.UI.Page
+    public partial class login_as_client : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            fillgrdProperty();
+
         }
-        private void fillgrdProperty()
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
         {
             MySqlConnection objcon = new MySqlConnection();
             objcon.ConnectionString = "server = localhost; user id = root; database = databasetest; persistsecurityinfo = True;SslMode=none";
             objcon.Open();
 
             MySqlCommand objcmd = new MySqlCommand();
-
             objcmd.CommandType = CommandType.Text;
             objcmd.Connection = objcon;
 
-
-            //string search = ddl_search.Text;
-            string sql = "";
-
-            sql = "SELECT  property_id, worth, area  FROM property";
-
-
+            String sql = "";
+            sql = sql + " Select email_id from client ";
+            sql = sql + " where email_id = '" + txtCrEmail.Text + "' ";
+            sql = sql + " and password = '" + txtCrPsw.Text + "'";
             objcmd.CommandText = sql;
+
             MySqlDataReader reader = objcmd.ExecuteReader();
             if (reader != null && reader.HasRows)
             {
-                lbl_no_result.Visible = false;
-                grdShowProperty.Visible = true;
-                grdShowProperty.DataSource = reader;
-                grdShowProperty.DataBind();
+                Session["email_id"] = txtCrEmail.Text;
+
+
+
+                Response.Redirect("SearchForm.aspx");
+
 
             }
+
+
             else
             {
-                lbl_no_result.Visible = true;
-                grdShowProperty.Visible = false;
+
+                lblAccess.Text = "Access Denied!!!";
+
             }
 
         }

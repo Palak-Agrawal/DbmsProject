@@ -9,17 +9,17 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="lbl_no_result" runat="server"></asp:Label>
         </div>
 
-        <asp:GridView ID="GridView1" AutoGenerateColumns="false" runat="server" Height="404px" Width="839px">
+        <asp:GridView ID="grdShowProperty" AutoGenerateColumns="false" runat="server" Height="404px" Width="839px">
             <Columns>
                 <asp:BoundField DataField="property_id" HeaderText="Property Id" />
-                <asp:BoundField DataField="registration_no" HeaderText="Registration Number" />
+                
                 <asp:BoundField DataField="worth" HeaderText="Worth" />
-                <asp:BoundField DataField="location" HeaderText="Location" />
+                
                 <asp:BoundField DataField="area" HeaderText="Area" />
-                <asp:BoundField DataField="broker_id" HeaderText="Broker Id" />
-            </Columns>
+                          </Columns>
         </asp:GridView>
     </form>
 </body>
